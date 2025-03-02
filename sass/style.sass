@@ -20,6 +20,7 @@ html
     font-family: "MontserratT"
     font-weight: regular
 
+
 $colorblue: #5290ea
 $colororange: #f28864
 $colorgray: #e2e2e2
@@ -474,7 +475,7 @@ $colorgray: #e2e2e2
         width: 50%
         background: $colorblue
         z-index: 20
-        transition: 0.5s all
+        transition: 0.2s all
         &_list
             flex-direction: column
             justify-content: space-evenly
@@ -488,8 +489,8 @@ $colorgray: #e2e2e2
         position: absolute
         top: 40px
         right: 30px
-        height: 14px
-        z-index: 30
+        height: 29px
+        z-index: 300
         
         span
             height: 5px
@@ -498,7 +499,7 @@ $colorgray: #e2e2e2
             display: block
             background: black
             margin-bottom: 7px
-            transition: 1s all
+            transition: 0.5s all
             &:last-child
                 margin-bottom: 0
     .hamburger_active
@@ -579,7 +580,72 @@ $colorgray: #e2e2e2
            
 @media ( max-width: 575px )
     .container
-        width: 100%    
+        width: 100%
+    .hamburger
+        top: 25px
+    .main-section
+        &_header
+            img
+                height: 50px
+                margin-left: 10px    
+        &_nav-container
+            
+            max-height: 50px
+        &_first-elipse
+            top: 30px
+    .right-wrapper
+        position: absolute
+        top: 230px
+        left: 50%
+        transform: translate(-50%, -50%)
+    
+    .second-section
+        min-height: 1200px
+        &_title
+            font-size: 40px
+            margin-left: 30px
+        &_cards-item
+            width: 300px
+            height: 300px
+        &_first-elipse
+            right: 0
+            top: 45px
+        &_second-elipse
+            left: 4px
+            top: 910px
+        &_icons-box 
+            display: grid
+            grid-template-columns: repeat(2, 1fr)
+            justify-items: start
+            gap: 10px
+            max-width: 168px
+    .icons-box
+        position: absolute
+        top: 1100px 
+        left: 30%
+        transform: translate(-50%, -50%)  
+
+    .cards-item
+        &_img
+            height: 250px  
+        &_text
+            font-size: 30px
+            right: -50px
+            top: 125px      
+    .third-section
+        padding-bottom: 20px
+        &_right-title
+            font-size: 40px
+      
+    .title_hr-top
+        top: 38px
+
+    .footer
+        &_container
+            margin-left: 0px
+            padding-left: 20px
+        &_title
+            font-size: 40px
 
     
     
