@@ -664,24 +664,30 @@ html {
   color: white;
 }
 
-/* line 167, ../HTML CSS/project_2/src/sass/style.sass */
+/* line 166, ../HTML CSS/project_2/src/sass/style.sass */
+.buttons_main-btn a {
+  text-decoration: none;
+  color: white;
+}
+
+/* line 170, ../HTML CSS/project_2/src/sass/style.sass */
 .buttons_icon-btn {
   display: inline-flex;
   align-items: center;
 }
 
-/* line 170, ../HTML CSS/project_2/src/sass/style.sass */
+/* line 173, ../HTML CSS/project_2/src/sass/style.sass */
 .buttons_icon-btn img {
   margin-right: 12px;
 }
 
-/* line 172, ../HTML CSS/project_2/src/sass/style.sass */
+/* line 175, ../HTML CSS/project_2/src/sass/style.sass */
 .buttons_text {
   font-size: 16px;
   font-weight: bold;
 }
 
-/* line 176, ../HTML CSS/project_2/src/sass/style.sass */
+/* line 179, ../HTML CSS/project_2/src/sass/style.sass */
 .elipse {
   width: 194px;
   height: 194px;
@@ -692,7 +698,7 @@ html {
   align-items: center;
 }
 
-/* line 184, ../HTML CSS/project_2/src/sass/style.sass */
+/* line 187, ../HTML CSS/project_2/src/sass/style.sass */
 .elipse_subtract {
   width: 129px;
   height: 129px;
@@ -700,64 +706,64 @@ html {
   border-radius: 150px;
 }
 
-/* line 189, ../HTML CSS/project_2/src/sass/style.sass */
+/* line 192, ../HTML CSS/project_2/src/sass/style.sass */
 .elipse_subtract_big {
   width: 188px;
   height: 188px;
 }
 
-/* line 192, ../HTML CSS/project_2/src/sass/style.sass */
+/* line 195, ../HTML CSS/project_2/src/sass/style.sass */
 .elipse_big {
   width: 282px;
   height: 282px;
 }
 
-/* line 196, ../HTML CSS/project_2/src/sass/style.sass */
+/* line 199, ../HTML CSS/project_2/src/sass/style.sass */
 .second-section {
   overflow: hidden;
   min-height: 700px;
 }
 
-/* line 199, ../HTML CSS/project_2/src/sass/style.sass */
+/* line 202, ../HTML CSS/project_2/src/sass/style.sass */
 .second-section_container {
   padding-top: 32px;
   position: relative;
 }
 
-/* line 202, ../HTML CSS/project_2/src/sass/style.sass */
+/* line 205, ../HTML CSS/project_2/src/sass/style.sass */
 .second-section_title {
   margin-bottom: 40px;
 }
 
-/* line 204, ../HTML CSS/project_2/src/sass/style.sass */
+/* line 207, ../HTML CSS/project_2/src/sass/style.sass */
 .second-section_cards-box {
   display: inline-flex;
   justify-content: center;
   margin-bottom: 25px;
 }
 
-/* line 208, ../HTML CSS/project_2/src/sass/style.sass */
+/* line 211, ../HTML CSS/project_2/src/sass/style.sass */
 .second-section_cards-item {
   margin-right: 30px;
 }
 
-/* line 210, ../HTML CSS/project_2/src/sass/style.sass */
+/* line 213, ../HTML CSS/project_2/src/sass/style.sass */
 .second-section_cards-item:last-child {
   margin-right: 0;
 }
 
-/* line 213, ../HTML CSS/project_2/src/sass/style.sass */
+/* line 216, ../HTML CSS/project_2/src/sass/style.sass */
 .second-section_icons-item:last-child {
   margin-right: 0;
 }
 
-/* line 215, ../HTML CSS/project_2/src/sass/style.sass */
+/* line 218, ../HTML CSS/project_2/src/sass/style.sass */
 .second-section_icons-box {
   display: flex;
   justify-content: space-evenly;
 }
 
-/* line 218, ../HTML CSS/project_2/src/sass/style.sass */
+/* line 221, ../HTML CSS/project_2/src/sass/style.sass */
 .second-section_first-elipse {
   position: absolute;
   top: 80px;
@@ -765,7 +771,7 @@ html {
   z-index: -1;
 }
 
-/* line 223, ../HTML CSS/project_2/src/sass/style.sass */
+/* line 226, ../HTML CSS/project_2/src/sass/style.sass */
 .second-section_second-elipse {
   position: absolute;
   top: 364px;
@@ -773,7 +779,7 @@ html {
   z-index: -1;
 }
 
-/* line 229, ../HTML CSS/project_2/src/sass/style.sass */
+/* line 232, ../HTML CSS/project_2/src/sass/style.sass */
 .cards-item {
   position: relative;
   width: 360px;
@@ -784,12 +790,12 @@ html {
   align-items: flex-end;
 }
 
-/* line 238, ../HTML CSS/project_2/src/sass/style.sass */
+/* line 241, ../HTML CSS/project_2/src/sass/style.sass */
 .cards-item_img {
   height: 335px;
 }
 
-/* line 240, ../HTML CSS/project_2/src/sass/style.sass */
+/* line 243, ../HTML CSS/project_2/src/sass/style.sass */
 .cards-item_text {
   width: 280px;
   font-size: 36px;
@@ -801,40 +807,40 @@ html {
   font-weight: bold;
 }
 
-/* line 250, ../HTML CSS/project_2/src/sass/style.sass */
+/* line 253, ../HTML CSS/project_2/src/sass/style.sass */
 .cards-item_orange {
   background: #f28864;
 }
 
-/* line 253, ../HTML CSS/project_2/src/sass/style.sass */
+/* line 256, ../HTML CSS/project_2/src/sass/style.sass */
 .cards-item_blue {
   background: #5290ea;
 }
 
-/* line 256, ../HTML CSS/project_2/src/sass/style.sass */
+/* line 259, ../HTML CSS/project_2/src/sass/style.sass */
 .icons-item {
   display: inline-flex;
   align-items: center;
 }
 
-/* line 259, ../HTML CSS/project_2/src/sass/style.sass */
+/* line 262, ../HTML CSS/project_2/src/sass/style.sass */
 .icons-item_img {
   margin-right: 20px;
   width: 80px;
 }
 
-/* line 262, ../HTML CSS/project_2/src/sass/style.sass */
+/* line 265, ../HTML CSS/project_2/src/sass/style.sass */
 .icons-item_text {
   font-size: 18px;
 }
 
-/* line 264, ../HTML CSS/project_2/src/sass/style.sass */
+/* line 267, ../HTML CSS/project_2/src/sass/style.sass */
 .icons-item_text span {
   font-size: 40px;
   font-weight: bold;
 }
 
-/* line 268, ../HTML CSS/project_2/src/sass/style.sass */
+/* line 271, ../HTML CSS/project_2/src/sass/style.sass */
 .third-section {
   position: relative;
   min-height: 640px;
@@ -843,7 +849,7 @@ html {
   z-index: 0;
 }
 
-/* line 274, ../HTML CSS/project_2/src/sass/style.sass */
+/* line 277, ../HTML CSS/project_2/src/sass/style.sass */
 .third-section_container {
   display: flex;
   flex-direction: row;
@@ -853,24 +859,24 @@ html {
   padding-top: 46px;
 }
 
-/* line 281, ../HTML CSS/project_2/src/sass/style.sass */
+/* line 284, ../HTML CSS/project_2/src/sass/style.sass */
 .third-section_right-wrapper {
   max-width: 480px;
   z-index: 1;
 }
 
-/* line 284, ../HTML CSS/project_2/src/sass/style.sass */
+/* line 287, ../HTML CSS/project_2/src/sass/style.sass */
 .third-section_right-title {
   margin-bottom: 20px;
 }
 
-/* line 286, ../HTML CSS/project_2/src/sass/style.sass */
+/* line 289, ../HTML CSS/project_2/src/sass/style.sass */
 .third-section_text {
   font-size: 18px;
   margin-bottom: 30px;
 }
 
-/* line 289, ../HTML CSS/project_2/src/sass/style.sass */
+/* line 292, ../HTML CSS/project_2/src/sass/style.sass */
 .third-section_first-elipse {
   position: absolute;
   top: 140px;
@@ -878,7 +884,7 @@ html {
   z-index: -1;
 }
 
-/* line 294, ../HTML CSS/project_2/src/sass/style.sass */
+/* line 297, ../HTML CSS/project_2/src/sass/style.sass */
 .third-section_figure {
   position: absolute;
   top: 249px;
@@ -886,26 +892,26 @@ html {
   z-index: -1;
 }
 
-/* line 299, ../HTML CSS/project_2/src/sass/style.sass */
+/* line 302, ../HTML CSS/project_2/src/sass/style.sass */
 .third-section_second-elipse {
   position: absolute;
   right: -120px;
   top: -120px;
 }
 
-/* line 305, ../HTML CSS/project_2/src/sass/style.sass */
+/* line 308, ../HTML CSS/project_2/src/sass/style.sass */
 .title_hr-top {
   bottom: 75px;
 }
 
-/* line 309, ../HTML CSS/project_2/src/sass/style.sass */
+/* line 312, ../HTML CSS/project_2/src/sass/style.sass */
 .footer_img {
   position: absolute;
   left: -250px;
   bottom: 0px;
 }
 
-/* line 313, ../HTML CSS/project_2/src/sass/style.sass */
+/* line 316, ../HTML CSS/project_2/src/sass/style.sass */
 .footer_container {
   min-height: 272px;
   display: flex;
@@ -913,264 +919,264 @@ html {
   justify-content: flex-end;
 }
 
-/* line 318, ../HTML CSS/project_2/src/sass/style.sass */
+/* line 321, ../HTML CSS/project_2/src/sass/style.sass */
 .footer_title {
   margin-bottom: 20px;
 }
 
 @media (max-width: 1199px) {
-  /* line 322, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 325, ../HTML CSS/project_2/src/sass/style.sass */
   .container {
     width: 960px;
   }
-  /* line 324, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 327, ../HTML CSS/project_2/src/sass/style.sass */
   .main-section {
     min-height: 690px;
   }
-  /* line 327, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 330, ../HTML CSS/project_2/src/sass/style.sass */
   .left-wrapper_img {
     width: 750px;
   }
-  /* line 329, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 332, ../HTML CSS/project_2/src/sass/style.sass */
   .left-wrapper_rectangle-blue {
     width: 500px;
     height: 200px;
   }
-  /* line 332, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 335, ../HTML CSS/project_2/src/sass/style.sass */
   .left-wrapper_rectangle-orange {
     width: 550px;
     height: 200px;
   }
-  /* line 335, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 338, ../HTML CSS/project_2/src/sass/style.sass */
   .left-wrapper_rectangle-gray {
     width: 500px;
     height: 200px;
   }
-  /* line 338, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 341, ../HTML CSS/project_2/src/sass/style.sass */
   .right-wrapper {
     right: 20px;
   }
-  /* line 340, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 343, ../HTML CSS/project_2/src/sass/style.sass */
   .main-section_first-elipse {
     right: 10px;
   }
-  /* line 342, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 345, ../HTML CSS/project_2/src/sass/style.sass */
   .main-section_second-elipse {
     top: 560px;
   }
-  /* line 344, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 347, ../HTML CSS/project_2/src/sass/style.sass */
   .second-section {
     min-height: 600px;
   }
-  /* line 346, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 349, ../HTML CSS/project_2/src/sass/style.sass */
   .second-section_cards-box {
     display: flex;
     justify-content: center;
   }
-  /* line 349, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 352, ../HTML CSS/project_2/src/sass/style.sass */
   .cards-item {
     width: 300px;
     height: 300px;
     margin-right: 20px;
   }
-  /* line 353, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 356, ../HTML CSS/project_2/src/sass/style.sass */
   .cards-item_img {
     height: 270px;
   }
-  /* line 355, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 358, ../HTML CSS/project_2/src/sass/style.sass */
   .cards-item_text {
     top: 120px;
     font-size: 30px;
   }
-  /* line 358, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 361, ../HTML CSS/project_2/src/sass/style.sass */
   .icons-item_img {
     margin-right: 10px;
   }
-  /* line 361, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 364, ../HTML CSS/project_2/src/sass/style.sass */
   .third-section_container {
     padding-left: 40px;
   }
-  /* line 363, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 366, ../HTML CSS/project_2/src/sass/style.sass */
   .third-section_container_right-wrapper {
     max-width: 450px;
   }
 }
 
 @media (max-width: 991px) {
-  /* line 366, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 369, ../HTML CSS/project_2/src/sass/style.sass */
   .container {
     width: 720px;
   }
-  /* line 368, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 371, ../HTML CSS/project_2/src/sass/style.sass */
   .main-section {
     min-height: 530px;
   }
-  /* line 370, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 373, ../HTML CSS/project_2/src/sass/style.sass */
   .main-section_first-elipse {
     top: 70px;
   }
-  /* line 372, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 375, ../HTML CSS/project_2/src/sass/style.sass */
   .main-section_second-elipse {
     top: 400px;
   }
-  /* line 375, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 378, ../HTML CSS/project_2/src/sass/style.sass */
   .left-wrapper img {
     width: 550px;
   }
-  /* line 377, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 380, ../HTML CSS/project_2/src/sass/style.sass */
   .left-wrapper_rectangle-blue {
     width: 388px;
     height: 130px;
   }
-  /* line 380, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 383, ../HTML CSS/project_2/src/sass/style.sass */
   .left-wrapper_rectangle-orange {
     width: 410px;
     height: 130px;
   }
-  /* line 383, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 386, ../HTML CSS/project_2/src/sass/style.sass */
   .left-wrapper_rectangle-gray {
     width: 380px;
     height: 130px;
   }
-  /* line 386, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 389, ../HTML CSS/project_2/src/sass/style.sass */
   .title {
     font-size: 58px;
   }
-  /* line 388, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 391, ../HTML CSS/project_2/src/sass/style.sass */
   .right-wrapper {
     width: 300px;
     top: 75px;
   }
-  /* line 391, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 394, ../HTML CSS/project_2/src/sass/style.sass */
   .right-wrapper_text {
     font-size: 14px;
     margin-bottom: 10px;
   }
-  /* line 395, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 398, ../HTML CSS/project_2/src/sass/style.sass */
   .buttons_main-btn {
     font-size: 14px;
     margin-right: 10px;
     width: 160px;
     height: 50px;
   }
-  /* line 400, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 403, ../HTML CSS/project_2/src/sass/style.sass */
   .buttons_icon-btn {
     font-size: 14px;
   }
-  /* line 402, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 405, ../HTML CSS/project_2/src/sass/style.sass */
   .elipse {
     width: 150px;
     height: 150px;
   }
-  /* line 405, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 408, ../HTML CSS/project_2/src/sass/style.sass */
   .elipse_subtract {
     width: 110px;
     height: 110px;
   }
-  /* line 408, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 411, ../HTML CSS/project_2/src/sass/style.sass */
   .elipse_subtract_big {
     width: 170px;
     height: 170px;
   }
-  /* line 411, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 414, ../HTML CSS/project_2/src/sass/style.sass */
   .elipse_big {
     width: 250px;
     height: 250px;
   }
-  /* line 414, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 417, ../HTML CSS/project_2/src/sass/style.sass */
   .cards-item {
     width: 220px;
     height: 220px;
   }
-  /* line 417, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 420, ../HTML CSS/project_2/src/sass/style.sass */
   .cards-item_img {
     height: 200px;
   }
-  /* line 419, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 422, ../HTML CSS/project_2/src/sass/style.sass */
   .cards-item_text {
     font-size: 22px;
     right: -75px;
     top: 92px;
   }
-  /* line 424, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 427, ../HTML CSS/project_2/src/sass/style.sass */
   .second-section {
     min-height: 450px;
   }
-  /* line 426, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 429, ../HTML CSS/project_2/src/sass/style.sass */
   .second-section_container {
     padding-top: 20px;
   }
-  /* line 428, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 431, ../HTML CSS/project_2/src/sass/style.sass */
   .second-section_title {
     margin-bottom: 25px;
   }
-  /* line 430, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 433, ../HTML CSS/project_2/src/sass/style.sass */
   .second-section_cards-box {
     margin-bottom: 10px;
   }
-  /* line 432, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 435, ../HTML CSS/project_2/src/sass/style.sass */
   .second-section_first-elipse {
     right: -35px;
   }
-  /* line 434, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 437, ../HTML CSS/project_2/src/sass/style.sass */
   .second-section_second-elipse {
     top: 262px;
     left: -35px;
   }
-  /* line 438, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 441, ../HTML CSS/project_2/src/sass/style.sass */
   .icons-item_text {
     font-size: 14px;
   }
-  /* line 440, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 443, ../HTML CSS/project_2/src/sass/style.sass */
   .icons-item span {
     font-size: 30px;
   }
-  /* line 442, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 445, ../HTML CSS/project_2/src/sass/style.sass */
   .icons-item_img {
     width: 50px;
   }
-  /* line 445, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 448, ../HTML CSS/project_2/src/sass/style.sass */
   .third-section {
     min-height: 510px;
   }
-  /* line 447, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 450, ../HTML CSS/project_2/src/sass/style.sass */
   .third-section_left-title {
     display: none;
   }
-  /* line 449, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 452, ../HTML CSS/project_2/src/sass/style.sass */
   .third-section_right-wrapper {
     max-width: 600px;
   }
-  /* line 451, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 454, ../HTML CSS/project_2/src/sass/style.sass */
   .third-section_container {
     justify-content: flex-start;
     padding-left: 20px;
     padding-top: 20px;
   }
-  /* line 456, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 459, ../HTML CSS/project_2/src/sass/style.sass */
   .title_hr-top {
     bottom: 60px;
   }
-  /* line 460, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 463, ../HTML CSS/project_2/src/sass/style.sass */
   .footer_img {
     width: 500px;
   }
-  /* line 462, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 465, ../HTML CSS/project_2/src/sass/style.sass */
   .footer_title {
     margin-bottom: 10px;
   }
-  /* line 464, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 467, ../HTML CSS/project_2/src/sass/style.sass */
   .footer_container {
     min-height: 200px;
   }
 }
 
 @media (max-width: 767px) {
-  /* line 468, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 471, ../HTML CSS/project_2/src/sass/style.sass */
   .container {
     width: 540px;
   }
-  /* line 470, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 473, ../HTML CSS/project_2/src/sass/style.sass */
   .nav-menu {
     position: fixed;
     top: 0;
@@ -1181,19 +1187,19 @@ html {
     z-index: 20;
     transition: 0.2s all;
   }
-  /* line 479, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 482, ../HTML CSS/project_2/src/sass/style.sass */
   .nav-menu_list {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     height: 100%;
   }
-  /* line 484, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 487, ../HTML CSS/project_2/src/sass/style.sass */
   .nav-menu_list-item {
     margin-right: 0;
     font-size: 22px;
   }
-  /* line 487, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 490, ../HTML CSS/project_2/src/sass/style.sass */
   .hamburger {
     width: 40px;
     position: absolute;
@@ -1202,7 +1208,7 @@ html {
     height: 29px;
     z-index: 300;
   }
-  /* line 495, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 498, ../HTML CSS/project_2/src/sass/style.sass */
   .hamburger span {
     height: 5px;
     width: 100%;
@@ -1212,118 +1218,118 @@ html {
     margin-bottom: 7px;
     transition: 0.5s all;
   }
-  /* line 503, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 506, ../HTML CSS/project_2/src/sass/style.sass */
   .hamburger span:last-child {
     margin-bottom: 0;
   }
-  /* line 506, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 509, ../HTML CSS/project_2/src/sass/style.sass */
   .hamburger_active span {
     margin-bottom: -2px;
   }
-  /* line 508, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 511, ../HTML CSS/project_2/src/sass/style.sass */
   .hamburger_active span:nth-child(1) {
     transform: translateY(6px) rotate(-45deg);
   }
-  /* line 510, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 513, ../HTML CSS/project_2/src/sass/style.sass */
   .hamburger_active span:nth-child(2) {
     display: none;
   }
-  /* line 512, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 515, ../HTML CSS/project_2/src/sass/style.sass */
   .hamburger_active span:nth-child(3) {
     transform: translateY(3px) rotate(45deg);
   }
-  /* line 515, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 518, ../HTML CSS/project_2/src/sass/style.sass */
   .nav-menu_active {
     right: 0;
   }
-  /* line 517, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 520, ../HTML CSS/project_2/src/sass/style.sass */
   .main-section {
     min-height: 500px;
   }
-  /* line 520, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 523, ../HTML CSS/project_2/src/sass/style.sass */
   .left-wrapper_img {
     display: none;
   }
-  /* line 523, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 526, ../HTML CSS/project_2/src/sass/style.sass */
   .right-wrapper {
     z-index: 10;
     position: absolute;
     top: 230px;
     transform: translate(-50%, -50%);
   }
-  /* line 530, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 533, ../HTML CSS/project_2/src/sass/style.sass */
   .second-section_title {
     font-size: 50px;
   }
-  /* line 532, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 535, ../HTML CSS/project_2/src/sass/style.sass */
   .second-section_cards-box {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  /* line 536, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 539, ../HTML CSS/project_2/src/sass/style.sass */
   .second-section_cards-item {
     width: 350px;
     height: 350px;
     margin-right: 0;
     margin-bottom: 20px;
   }
-  /* line 541, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 544, ../HTML CSS/project_2/src/sass/style.sass */
   .second-section_cards-item:last-child {
     margin-bottom: 0;
   }
-  /* line 543, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 546, ../HTML CSS/project_2/src/sass/style.sass */
   .second-section_icons-box {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
   }
-  /* line 547, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 550, ../HTML CSS/project_2/src/sass/style.sass */
   .second-section_first-elipse {
     right: 30px;
     top: 30px;
   }
-  /* line 550, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 553, ../HTML CSS/project_2/src/sass/style.sass */
   .second-section_second-elipse {
     left: 20px;
     top: 1110px;
   }
-  /* line 553, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 556, ../HTML CSS/project_2/src/sass/style.sass */
   .icons-item {
     display: flex;
     justify-content: center;
   }
-  /* line 557, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 560, ../HTML CSS/project_2/src/sass/style.sass */
   .cards-item_img {
     height: 300px;
   }
-  /* line 559, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 562, ../HTML CSS/project_2/src/sass/style.sass */
   .cards-item_text {
     font-size: 36px;
     right: -45px;
     top: 140px;
   }
-  /* line 564, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 567, ../HTML CSS/project_2/src/sass/style.sass */
   .third-section_right-title {
     font-size: 50px;
   }
-  /* line 566, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 569, ../HTML CSS/project_2/src/sass/style.sass */
   .third-section_text {
     max-width: 450px;
   }
-  /* line 568, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 571, ../HTML CSS/project_2/src/sass/style.sass */
   .title_hr-top {
     top: 50px;
   }
-  /* line 572, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 575, ../HTML CSS/project_2/src/sass/style.sass */
   .footer_img {
     display: none;
   }
-  /* line 574, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 577, ../HTML CSS/project_2/src/sass/style.sass */
   .footer_title {
     font-size: 50px;
   }
-  /* line 576, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 579, ../HTML CSS/project_2/src/sass/style.sass */
   .footer_container {
     margin-left: 40px;
     justify-content: flex-start;
@@ -1331,59 +1337,59 @@ html {
 }
 
 @media (max-width: 575px) {
-  /* line 582, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 585, ../HTML CSS/project_2/src/sass/style.sass */
   .container {
     width: 100%;
   }
-  /* line 584, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 587, ../HTML CSS/project_2/src/sass/style.sass */
   .hamburger {
     top: 25px;
   }
-  /* line 588, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 591, ../HTML CSS/project_2/src/sass/style.sass */
   .main-section_header img {
     height: 50px;
     margin-left: 10px;
   }
-  /* line 591, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 594, ../HTML CSS/project_2/src/sass/style.sass */
   .main-section_nav-container {
     max-height: 50px;
   }
-  /* line 594, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 597, ../HTML CSS/project_2/src/sass/style.sass */
   .main-section_first-elipse {
     top: 30px;
   }
-  /* line 596, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 599, ../HTML CSS/project_2/src/sass/style.sass */
   .right-wrapper {
     position: absolute;
     top: 230px;
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  /* line 602, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 605, ../HTML CSS/project_2/src/sass/style.sass */
   .second-section {
     min-height: 1200px;
   }
-  /* line 604, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 607, ../HTML CSS/project_2/src/sass/style.sass */
   .second-section_title {
     font-size: 40px;
     margin-left: 30px;
   }
-  /* line 607, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 610, ../HTML CSS/project_2/src/sass/style.sass */
   .second-section_cards-item {
     width: 300px;
     height: 300px;
   }
-  /* line 610, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 613, ../HTML CSS/project_2/src/sass/style.sass */
   .second-section_first-elipse {
     right: 0;
     top: 45px;
   }
-  /* line 613, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 616, ../HTML CSS/project_2/src/sass/style.sass */
   .second-section_second-elipse {
     left: 4px;
     top: 910px;
   }
-  /* line 616, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 619, ../HTML CSS/project_2/src/sass/style.sass */
   .second-section_icons-box {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -1391,41 +1397,41 @@ html {
     gap: 10px;
     max-width: 168px;
   }
-  /* line 622, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 625, ../HTML CSS/project_2/src/sass/style.sass */
   .icons-box {
     position: absolute;
     top: 1100px;
     left: 30%;
     transform: translate(-50%, -50%);
   }
-  /* line 629, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 632, ../HTML CSS/project_2/src/sass/style.sass */
   .cards-item_img {
     height: 250px;
   }
-  /* line 631, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 634, ../HTML CSS/project_2/src/sass/style.sass */
   .cards-item_text {
     font-size: 30px;
     right: -50px;
     top: 125px;
   }
-  /* line 635, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 638, ../HTML CSS/project_2/src/sass/style.sass */
   .third-section {
     padding-bottom: 20px;
   }
-  /* line 637, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 640, ../HTML CSS/project_2/src/sass/style.sass */
   .third-section_right-title {
     font-size: 40px;
   }
-  /* line 640, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 643, ../HTML CSS/project_2/src/sass/style.sass */
   .title_hr-top {
     top: 38px;
   }
-  /* line 644, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 647, ../HTML CSS/project_2/src/sass/style.sass */
   .footer_container {
     margin-left: 0px;
     padding-left: 20px;
   }
-  /* line 647, ../HTML CSS/project_2/src/sass/style.sass */
+  /* line 650, ../HTML CSS/project_2/src/sass/style.sass */
   .footer_title {
     font-size: 40px;
   }
